@@ -24,7 +24,7 @@ const UseInput = () => {
   const name = useInput("Mr.", maxLen);
   return (
     <div>
-      <h1>Hello UseInput</h1>
+      <h2>Hello UseInput</h2>
       <input placeholder="Name" value={name.value} onChange={name.onChange}/>
       <input placeholder="Name2" {...name} />
     </div>
