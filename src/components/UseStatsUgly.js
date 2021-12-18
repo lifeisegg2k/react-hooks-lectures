@@ -8,7 +8,7 @@ class UseStatsUgly extends React.Component {
     const { item } = this.state;
     return (
       <div>
-        <h1>Hello UseStatsUgly {item}</h1>
+        <h1>Hello useStateUgly {item}</h1>
         <h2>Start editing to see some magic happen!</h2>
         <button onClick={this.incrementItem}>Increment</button>
         <button onClick={this.decrementItem}>Decrement</button>

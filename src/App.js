@@ -1,6 +1,7 @@
 import logo from './etc/logo.svg';
 import US from "./components/UseStats";
 import USA from "./components/UseStatsUgly";
+import UI from "./components/UseInput";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </header>
       <US />
       <USA />
+      <UI />
     </div>
   );
 }

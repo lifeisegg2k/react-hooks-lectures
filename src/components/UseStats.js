@@ -6,7 +6,7 @@ const UseState = () => {
   const decrementItem = () => setItem(item - 1);
   return (
     <div>
-      <h1>Hello UseState {item}</h1>
+      <h1>Hello useState {item}</h1>
       <h2>Start editing to see some magic happen!</h2>
       <button onClick={incrementItem}>Increment</button>
       <button onClick={decrementItem}>Decrement</button>
